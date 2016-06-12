@@ -4,7 +4,7 @@ add-apt-repository ppa:webupd8team/java
 apt-get update
 apt-get install -y oracle-java8-installer git maven
 
-cp bcprov-jdk15on-153.jar /usr/lib/jvm/java-8-oracle/jre/lib/
+cp bcprov-jdk15on-153.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/
 echo "security.provider.11=org.bouncycastle.jce.provider.BouncyCastleProvider" >> /usr/lib/jvm/java-8-oracle/jre/lib/security/java.security
 
 cp local_policy.jar /usr/lib/jvm/java-8-oracle/jre/lib/security/
