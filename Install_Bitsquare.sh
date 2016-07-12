@@ -1,3 +1,4 @@
+echo "Installation of Java 8, Maven and Git"
 apt-get update
 apt-get install -y software-properties-common python-software-properties
 add-apt-repository ppa:webupd8team/java
