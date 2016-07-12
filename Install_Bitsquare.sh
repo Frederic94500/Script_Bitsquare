@@ -21,4 +21,5 @@ mvn clean package -DskipTests
 
 cd gui/target/
 
-
+echo "Executing Bitsquare with 256 Mo of memory"
+java -Xincgc -Xmx256M -Xms256M -jar shaded.jar
